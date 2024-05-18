@@ -1,0 +1,83 @@
+.DS_Store
+
+application/cache/*
+!application/cache/index.html
+
+application/logs/*
+!application/logs/index.html
+
+!application/*/.htaccess
+
+composer.lock
+tests/mocks/database/ci_test.sqlite
+
+user_guide_src/build/*
+user_guide_src/cilexer/build/*
+user_guide_src/cilexer/dist/*
+user_guide_src/cilexer/pycilexer.egg-info/*
+/vendor/
+
+# IDE Files
+#-------------------------
+/nbproject/
+.idea/*
+
+## Sublime Text cache files
+*.tmlanguage.cache
+*.tmPreferences.cache
+*.stTheme.cache
+*.sublime-workspace
+*.sublime-project
+/tests/tests/
+/tests/results/
+
+# Composer dependency directory
+/vendor/
+
+# Node dependency directory (if you use Node.js)
+node_modules/
+
+# Environment configuration file
+.env
+
+# Log files
+*.log
+application/logs/
+
+# Cache files
+application/cache/
+
+# Config backup files
+application/config/*.bak
+application/config/*.old
+
+# Database backup files
+*.sql
+*.sql.gz
+*.sqlite
+
+# Ignoring temporary files and directories
+tmp/
+temp/
+*.tmp
+
+# Ignoring compiled templates or other generated content
+application/views/compiled/
+
+# CodeIgniter session files
+application/sessions/
+
+# Ignoring IDE/editor specific files
+.idea/
+*.sublime-project
+*.sublime-workspace
+.vscode/
+*.swp
+*~
+
+# Ignoring OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignoring deployment scripts or other custom scripts that are not part of the application code
+/deploy/
