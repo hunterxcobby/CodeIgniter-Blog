@@ -7,3 +7,5 @@ $route['translate_uri_dashes'] = FALSE;
 
 
 $route['abouts'] = 'welcome/demo';
+$route['about'] = 'pageController/about';
+$route['home'] = 'pageController/index';
