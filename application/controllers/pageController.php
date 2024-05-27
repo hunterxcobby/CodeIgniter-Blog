@@ -7,4 +7,9 @@ class PageCOntroller extends CI_Controller {
     {
         echo "This is the index page from pageController";
     }
+
+    public function about()
+    {
+        echo "This is the about page from pageController";
+    }
 }
