@@ -5,7 +5,7 @@ class PageCOntroller extends CI_Controller {
 
     public function index()
     {
-        echo "This is the index page from pageController";
+        echo "This is the index page from pageController  --- HOME IN URL";
     }
 
     public function about()
